@@ -1,0 +1,13 @@
+{
+    "cmd": ["make"],
+    "file_regex": "^(..[^:]+):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+
+    "variants":
+    [
+        {
+            "name": "Clean",
+            "cmd": ["make", "clean"]
+        }
+    ]
+}

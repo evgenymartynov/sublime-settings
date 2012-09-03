@@ -1,0 +1,50 @@
+<snippet>
+    <content><![CDATA[
+// Author: evgenym
+// Tutorial: Tue 11 Bell
+// Date: $1
+// Summary: $2
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+
+// Defines go here
+
+// Local struct typedefs
+
+// Local prototypes
+
+
+int main(int argc, char *argv[]) {
+    $3
+
+    return EXIT_SUCCESS;
+}
+
+
+///////////////////////////////////////////////////////////////////////
+//
+// Interface implementation code starts here
+//
+///////////////////////////////////////////////////////////////////////
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+//
+// Internal implementation code starts here
+//
+///////////////////////////////////////////////////////////////////////
+
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>main</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c</scope>
+    <!-- Optional: Set a description to display in the completion menu -->
+    <description>main()</description>
+</snippet>
