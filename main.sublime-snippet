@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <string>
+using namespace std;
+
+void solve(int n) {
+    int ans = 0;
+
+    $2
+
+    printf("%d\n", ans);
+}
+
+int main() {
+    ${1:for (int cnum = 1; ; cnum++) {
+        int n;
+        scanf("%d\n", &n);
+        if (!n) break;
+
+        printf("Case #%d: ", cnum);
+        solve(n);
+    \}}
+
+    return 0;
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>main</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++</scope>
+</snippet>
